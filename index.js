@@ -9,7 +9,7 @@ import Record from "./models/Record.js";
 dotenv.config();
 
 mongoose.connect("mongodb://127.0.0.1:27017/ipfsDB")
-  .then(() => console.log("MongoDB connected"))
+  .then(() => console.log("MongoDB Connected Succesfully !"))
   .catch(err => console.log(err));
 
 const app = express();
